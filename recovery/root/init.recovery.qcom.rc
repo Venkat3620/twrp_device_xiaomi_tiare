@@ -53,10 +53,11 @@ service prepdecrypt /init.prepdecrypt.sh
     disabled
     seclabel u:r:recovery:s0
 
-# Separate copy needed to use /sbin/linker64 instead of /system/bin/linker64
+# Separate copy needed to use /sbin/linker instead of /system/bin/linker
 service sbinqseecomd /sbin/qseecomd
     user root
     group root
+    setenv LD_LIBRARY_PATH /vendor/lib:/sbin
     disabled
     seclabel u:r:recovery:s0
 
@@ -90,12 +91,14 @@ service keystore /sbin/keystore /tmp/misc/keystore
 service gatekeeper-1-0 /sbin/android.hardware.gatekeeper@1.0-service-qti
     user root
     group root
+    setenv LD_LIBRARY_PATH /vendor/lib:/sbin
     disabled
     seclabel u:r:recovery:s0
 
 service keymaster-3-0 /sbin/android.hardware.keymaster@3.0-service-qti
     user root
     group root
+    setenv LD_LIBRARY_PATH /vendor/lib:/sbin
     disabled
     seclabel u:r:recovery:s0
 
