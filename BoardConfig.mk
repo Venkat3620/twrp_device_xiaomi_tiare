@@ -41,8 +41,10 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_PREBUILT_KERNEL := device/xiaomi/tiare/prebuilt/kernel
 
 # Encryption
-TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH := $(LOCAL_PATH)/cryptfs_hw
+PLATFORM_SECURITY_PATCH := 2029-10-01
+PLATFORM_VERSION := 9
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
