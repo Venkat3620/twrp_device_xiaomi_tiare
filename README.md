@@ -1,27 +1,27 @@
-TWRP device configuration for Xiaomi Redmi 3S/Prime/3X
-=============================
+Copyright (C) 2020 The LineageOS Project
 
-The Xiaomi Redmi 3S/Prime/3X (codenamed _"land"_) is a mid-end smartphone from Xiaomi.
+TWRP Device configuration for Redmi Go
+=========================================
 
-It was announced and released in June 2016.
+The Redmi Go (codenamed _"tiare"_) is a low-end smartphone from Xiaomi.
+
+It was announced in January 2019. Release date was February 2019.
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-Chipset | Qualcomm MSM8937 Snapdragon 430
-CPU     | Octa-core (4x1.40 GHz Cortex-A53 & 4x1.09 GHz Cortex-A53)
-GPU     | Adreno 505 (450 MHz)
-Memory  | 2/3 GB RAM (LPDDR3 800 MHz)
-Shipped Android Version | 6.0.1 (MIUI 7)
-Storage | 16/32 GB (eMMC 5.0/5.1 flash)
-MicroSD | up to 256 GB (uses SIM 2 slot)
-Battery | Li-Po 4100 mAh (Non-removable)
-Dimensions | 139.3 x 69.6 x 8.5 mm
-Display | 1280 x 720 pixels, 5.0 inches (~294 ppi pixel density)
-Rear Camera  | 13 MP, f/2.0, phase detection autofocus, LED flash
-Front Camera | 5 MP, f/2.2
+SoC     | Qualcomm MSM8917 Snapdragon 425
+CPU     | Quad-core 1.4 GHz Cortex-A53
+GPU     | Adreno 308
+Memory  | 1 GB RAM
+Shipped Android Version | 8.1 with Android Go edition
+Storage | 8/16 GB
+Battery | Non-removable Li-Ion 3000 mAh battery
+Display | 720 x 1280 pixels, 16:9 ratio (~296 ppi density)
+Back Camera  | 8 MP, f/2.0, 1/4.0", 1.12µm, AF
+Front Camera | 5 MP, f/2.2, 1/5", 1.12µm
 
 ## Device picture
 
-![Xiaomi Redmi 3S/Prime/3X](http://i01.appmifile.com/webfile/globalimg/en/goods/hongmi3s/specs-preview-06.jpg "Xiaomi Redmi 3S/Prime/3X")
+![Redmi Go](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-go-1.jpg "Redmi Go in black")
